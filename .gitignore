@@ -1,0 +1,45 @@
+# --- ENVIRONMENTS ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- PYTHON BUILD FILES ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.eggs/
+
+# --- JUPYTER NOTEBOOK CHECKPOINTS ---
+.ipynb_checkpoints/
+
+# --- OS-SPECIFIC ---
+.DS_Store           # macOS
+Thumbs.db           # Windows
+
+# --- LOGS & OUTPUT ---
+*.log
+*.out
+*.tmp
+*.bak
+
+# --- DATA FILES ---
+data/*.csv
+data/*.json
+data/*.xlsx
+data/*.pkl
+data/*.db
+
+# --- API KEYS / SECRETS ---
+.env
+*.env
+openai_key.txt
+secrets.json
+
+# --- IDE FILES ---
+.vscode/
+.idea/
+*.swp
