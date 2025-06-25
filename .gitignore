@@ -26,7 +26,7 @@ Thumbs.db           # Windows
 *.tmp
 *.bak
 
-# --- DATA FILES (OPTIONAL) ---
+# --- DATA FILES ---
 data/*.csv
 data/*.json
 data/*.xlsx
